@@ -11,8 +11,8 @@ jobs:
       - name: check out repository code
         uses: actions/checkout@v4
       - run: echo "The ${{github.repository}} has been cloned"
-      - run: echo"The Workflow is now ready"
-      - name: list file in the directory
+      - run: echo "The Workflow is now ready"
+      - name: list file in the directory"
         run :
           ls ${{github.workplace}}
       - run: echo "This Job status is ${{job.status}}."
